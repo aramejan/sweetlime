@@ -33,10 +33,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Jump Box | Gateway  | 10.0.0.1   | Amazon Linux     |
+|webserver1| AWS vm1  | 10.0.0.233 | Amazon linux     |                  
+|webserver2| AWS vm1  | 10.0.1.139 | Amazon linux     |                  
+|ElK server|Analyisplt| 10.0.0.221 | Amazon linux     |                                 
 
 ### Access Policies
 
