@@ -1,0 +1,12 @@
+#at line 1105 ==>
+#add ELK-server private ip address
+
+ hosts: ["10.0.0.221:9200"]
+  username: "elastic"
+  password: "changeme"
+  
+  # line 1806
+  # host is ELK-server private ip address 
+  
+  setup.kibana:
+  host: "10.0.0.221:5601"
