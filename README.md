@@ -91,10 +91,10 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - _TODO: List the IP addresses of the machines you are monitoring
-Machine | IP Adress | 
---- | --- | ---
-webserver1 | 10.0.1.233
-webserver2 | 10.0.0.139
+|Machine     | IP Adress | 
+|------------|---------- |
+|webserver1  | 10.0.1.233|
+|webserver2  | 10.0.0.139|
 
 - 
 
