@@ -99,6 +99,7 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 
 [filebeat](https://github.com/aramejan/sweetlime/blob/main/filebeat)
+
 [metricbeat](https://github.com/aramejan/sweetlime/blob/main/metricbeat)
 
 These Beats allow us to collect the following information from each machine:
