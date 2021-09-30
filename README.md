@@ -82,7 +82,7 @@ The playbook implements the following tasks:
 - Download and lunch Docker for ELK 
 - Publish ports 5601,9200 and 5400 
 
-[ELK-Setup][https://github.com/aramejan/sweetlime/blob/main/ELK-Setup]
+[ELK-Setup](https://github.com/aramejan/sweetlime/blob/main/ELK-Setup)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -90,7 +90,13 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- _TODO: List the IP addresses of the machines you are monitoring
+Machine | IP Adress | 
+--- | --- | ---
+webserver1 | 10.0.1.233
+webserver2 | 10.0.0.139
+
+- 
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
