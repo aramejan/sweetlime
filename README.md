@@ -90,12 +90,10 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Name          | IP address    | 
+| ------------- |:-------------:| 
+| Webserver1    | 10.0.1.139    |
+| Webserver2    | 10.0.0.233    |  
  
 
 We have installed the following Beats on these machines:
