@@ -91,13 +91,12 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - _TODO: List the IP addresses of the machines you are monitoring
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Amazon Linux     |
-|webserver1| AWS vm1  | 10.0.0.233 | Amazon linux     |                  
-|webserver2| AWS vm1  | 10.0.1.139 | Amazon linux     |                  
-|ElK server|Analyisplt| 10.0.0.221 | Amazon linux     |  
-- 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+ 
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
