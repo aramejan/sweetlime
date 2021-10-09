@@ -2,7 +2,6 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 [AWS Diagram](https://github.com/aramejan/sweetlime/blob/b086d36e96a54a18a02c82d913007641c74fa059/Diagram0211.PNG) 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
