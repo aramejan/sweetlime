@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  - Enter the playbook file._
   - [Playbook](https://github.com/aramejan/sweetlime/blob/fb3f7c9866a8227ee0c4c10e1502362d3e7fc954/apache-playbook)
     
 
@@ -30,7 +30,7 @@ Load Balancer to give access to the user from a single node that can be secured 
 Jumpbox is allow us to have a secure access and monitor the servers and single box.  
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system logs.
-- _TODO: What does Filebeat watch for?
+- What does Filebeat watch for?
 - Logs the file data and send them to ELK.
 - _TODO: What does Metricbeat record?
 - 
