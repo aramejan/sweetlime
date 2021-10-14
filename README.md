@@ -24,7 +24,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Dmn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly functional, in addition to restricting high traffic to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+- What aspect of security do load balancers protect? What is the advantage of a jump box?_
 
 Load Balancer to give access to the user from a single node that can be secured and monitored and distributes network or application traffic across the servers
 Jumpbox is allow us to have a secure access and monitor the servers and single box.  
@@ -32,11 +32,12 @@ Jumpbox is allow us to have a secure access and monitor the servers and single b
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system logs.
 - What does Filebeat watch for?
 - Logs the file data and send them to ELK.
-- _TODO: What does Metricbeat record?
-- 
+- What does Metricbeat record?
+- It records metrics data and send them to the output that you specifics thrugh ELK Server.
+
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -50,11 +51,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses
+-  Add whitelisted IP addresses
 -   54.202.182.165
 
 Machines within the network can only be accessed by Jumpbox.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?
+-  Which machine did you allow to access your ELK VM? What was its IP address?
 - JumpBox
 -  10.0.0.174
 
@@ -70,12 +71,12 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?
+-  What is the main advantage of automating configuration with Ansible?
 -  We can manage/automate the configuration with YAMl Playbooks
 -  Setup the servers with open ssh 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - Install docker.io
 - Install docker by useing Phyton-pip 
 - Increase the virtual memory size 
@@ -114,9 +115,10 @@ SSH into the control node and follow the steps below:
 - Update the hots file on /etc/ansible/hosts file to include for elk server 10.0.0.174
 - Run the playbook, and navigate to http://10.0.0.174/app/kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it? filebeat-playbook.yml
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+   Answer the following questions to fill in the blanks:_
+- Which file is the playbook? Where do you copy it? 
+- filebeat-playbook.yml
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? /etc/ansible/hosts 
 - _Which URL do you navigate to in order to check that the ELK server is running?
 - http://54.212.89.166:5601/app/kibana
 
